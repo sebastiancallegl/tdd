@@ -1,0 +1,14 @@
+We are building an Agenda for sales purposes, this agenda will be sold to some anonymous clients
+but they ask us to keep the following standards.
+
+Agenda taxonomy specifications.
+    - the agenda shouldn't have less than 100 people (unique names).
+    - for costs purposes the agenda shouldn't have more than 15 languages.
+    - there can't be users with the same id.
+    - there can't be any user without id, name or bio.
+
+Agenda API specifications.
+    - should respond with the complete data of the user.
+    - should respond with the correct status code.
+    - should respond with a proper error message in case the user is not in the Agenda.
+    - should be able to handle ids in lower case.
